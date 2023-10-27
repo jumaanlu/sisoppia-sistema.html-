@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Bienvenida</title>
+</head>
+<body class="pagina">
+
+    <nav>
+        <div class="logo">UANL-FIME</div>
+        <div class="barnav">
+            <div><a href="index.html">Inicio</a></div>
+            <div><a href="sistema.html">Sistema</a></div>
+            
+            <div><a href="equipo.html">Equipo</a></div>
+        </div>
+    </nav>
+    <a href="index.html">Inicio</a> | <a href="sistema.html">Sistema</a> | <a href="contacto.html">Contacto</a>
+
+    <center>
+         <center><h1 id="nombre">SISTEMAS OPERATIVOS - LINUX </center></h1>
+        <center>
+            
+                <h2 id="subtitulo">
+                    Introduccion
+                </h2>
+                <div id="mostrar_tabla">
+                    <form action="<?php echo $_SERVER['PHP_SELF'];?>" name="tabla_datos" id="tabla_datos" method="POST">
+                        <table class="table table-striped" id="tabla" name="tabla" width="600" border="2" cellspacing="3" cellpadding="3" style="font-size: 20pt">
+                            <td>
+                                <br />Comenzaremos explicando que es un Sistema Operativo, el cual en pocas palabras es un conjunto de programas que permite manejar la memoria, disco, medios de almacenamiento de información y los diferentes periféricos o recursos de nuestra computadora, como son el teclado, el mouse, la impresora, la placa de red, entre otros.
+                                Dentro de las tareas que realiza el sistema operativo, en particular, se ocupa de gestionar la memoria de nuestro sistema y la carga de los diferentes programas, para ello cada programa tiene una prioridad o jerarquía y en función de la misma contará con los recursos de nuestro sistema por más tiempo que un programa de menor prioridad.
+                                Los Sistemas Operativos mas comunes o mas conocidos son Windows y MacOS, pero también existe otro sistema operativo el cual para muchos es más cómodo que los anteriores mencionados además de ser mas libre ya que este cuenta con un sistema de código abierto o sistema línea de comando, este sistema operativo es conocido como Linux, el sistema operativo de software abierto y gratuito.
+                                A continuación, se hablará más acerca de este sistema operativo contestando preguntas como, ¿Qué es Linux? ¿Cuáles son sus características?, al ser gratuito ¿Es seguro?, ¿Cuáles son sus componentes? etc.…
+                            </td>
+                        </table>
+                    </form>
+                </div>
+        </center>
+        <center><img src="img/linux.jpg" /></center>
+
+</body>
+</html>
